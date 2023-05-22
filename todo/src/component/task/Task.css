@@ -1,0 +1,30 @@
+.taskContainer{
+    border: 1px solid rgb(156, 152, 152);
+    width: 21%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.table{
+    
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr{
+ 
+    border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color: rgb(163, 189, 217);
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* .taskContainer>div>button{
+margin-left: ;
+} */
