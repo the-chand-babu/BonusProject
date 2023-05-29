@@ -9,16 +9,16 @@ function Task() {
     if (!inputRef.current.value) return;
 
     if (isUpdate) {
-      console.log(isUpdate, "this is isupdate  ");
+      // console.log(isUpdate, "this is isupdate  ");
       const filterArr = fruits.map((ele) => {
         if (ele == isUpdate) {
           const value = inputRef.current.value;
-          console.log(value, "tis vallye");
+          // console.log(value, "tis vallye");
           return value;
         }
         return ele;
       });
-      console.log(filterArr, "this is filter aar");
+      // console.log(filterArr, "this is filter aar");
       setFruits(filterArr);
       setIsupdate("");
       inputRef.current.value = "";

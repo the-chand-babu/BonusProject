@@ -44,9 +44,9 @@ function Contact() {
       
       Email:Joi.string()
       .email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }),
-      Phone:Joi.string().min(10).max(10).required()
-    })
+      Phone:Joi.string().min(10).max(10).required()})
 
+    
     const {error}=Schema.validate({...user})
     return(error?.message)
   }
